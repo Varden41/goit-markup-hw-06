@@ -764,7 +764,8 @@ border-color: var(--button-bg-color);
 }
 .checkbox-modal:checked + .scg-checkbox{
     background-color: var(--accent-text-color);
-    border-color: var(--accent-text-color);
+    border: none;
+    background-origin: border-box;
 }
 .agreement-text {
     font-size: 14px;
