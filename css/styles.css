@@ -753,16 +753,20 @@ border-color: var(--button-bg-color);
     cursor: pointer;
     margin-inline: auto;
 }
-.scg-checkbox {
+.svg-checkbox {
     border: 2px solid var(--title-text-color);
     border-radius: 4px;
     margin-right: 8px;
     fill: var(--background-color);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+    transition-property: background-color;
 }
-.checkbox-modal:checked + .scg-checkbox{
+.checkbox-modal:checked + .svg-checkbox{
     background-color: var(--accent-text-color);
     border: none;
     background-origin: border-box;
+    
 }
 .agreement-text {
     font-size: 14px;
