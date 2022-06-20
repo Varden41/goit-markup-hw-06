@@ -736,14 +736,15 @@ fill: var(--button-bg-color);
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 transition-duration: 250ms;
 transition-property: fill;
+color: var(--title-text-color);
 }
 .modal-block:focus-within {
-    fill: #188CE8;
+    fill: var(--button-bg-color);
 }
 
 .comment-form:focus,
 .form-input:focus {  
-border-color: #188CE8;
+border-color: var(--button-bg-color);
 }
 
 .agreement {
