@@ -135,10 +135,6 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 }
 
-.contacts-link.header:hover .svg-header,
-.contacts-link.header:focus .svg-header {
-    fill: var(--accent-text-color);
-} 
 
 .contacts-link.header:hover,
 .contacts-link.header:focus 
@@ -422,6 +418,7 @@ line-height: 1.71;
 color: var(--footer-adress-color);
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 transition-duration: 250ms;
+transition-property: color;
 
 font-size: 14px;
 line-height: 1.71;
