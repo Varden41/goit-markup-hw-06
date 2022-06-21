@@ -768,6 +768,7 @@ border-color: var(--button-bg-color);
     background-origin: border-box;
     
 }
+
 .agreement-text {
     font-size: 14px;
     line-height: 1.71;
@@ -786,6 +787,9 @@ border-color: var(--button-bg-color);
     -moz-appearance: none;
     appearance: none;
     position: absolute;
+}
+.checkbox-modal:focus .svg-checkbox {
+    border-color: #188CE8;
 }
 .modal-submit {
     display: flex;
